@@ -24,7 +24,7 @@ public class DataController {
         return this.dataService.loadClassesData();
     }
 
-    @RequestMapping("/testgithub")
+    @RequestMapping("/github")
     public String git() {
         System.out.println("DataController--git---");
 
